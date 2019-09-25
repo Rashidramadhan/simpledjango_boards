@@ -1,0 +1,90 @@
+/*THIS PART FORMATS THE BASE.HTML FILE*/
+* {margin: 0; padding: 0;}
+html {
+	height: 100%;
+	/*Image only BG fallback*/
+	/*background = gradient + image pattern combo*/
+	background: lightgreen;
+}
+#wrap {
+  min-height: 95%;
+
+}
+#main {
+  overflow: auto;
+  padding-bottom: 30px;
+  /* must be same height as the footer */
+}
+.footer {
+  position: relative;
+  margin-top: 10px;
+  /* negative value of footer height */
+
+  height: 30px;
+  /*clear: both;*/
+  background-color: green;
+}
+
+.top{
+    width: 100%;
+    margin: 0;
+    height: 60px;
+    background-color: white;
+
+}
+.logo {
+     background: url("/static/images/cart3.png") 0% 0% no-repeat;
+     display: block;
+     height: 50px;
+     width: 150px;
+     float: right;
+     margin: 0;
+    }
+
+input[type=text]{
+
+     height: 50px;
+     width: 200px;
+     float: right;
+     color: 0000ff;
+     margin: 0;
+ }
+.site_title{
+     font-family: "Times New Roman", Times, serif;
+     font-size: 170%;
+     font-weight: bold;
+     text-align: left ;
+     height: 50px;
+     width: 69%;
+     float: right;
+     color: #00a84f;
+     background-color: white;
+     margin: 5px;
+     padding-left: 15px;
+ }
+
+ul {
+  list-style-type: none;
+  margin: 0 0;
+  padding: 0 0;
+  overflow: hidden;
+  background-color:  #e67e22;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.active{
+  background-color: #00a800;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
